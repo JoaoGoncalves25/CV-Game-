@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>My game</title>
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <title>My skills</title>
 </head>
 <body>
     <main>
-        <!-- #game-intro is initially shown on the game start screen -->`      <div id="game-intro">
+        <div class ="game-body">
+             
+        <!-- #game-intro is initially shown on the game start screen -->     <div id="game-intro">
           <img src="./images/logo.png" alt="" class="logo-img" />
           <br />
-          <button id="start-button">Start Game</button>
-          <p>Use the left and right arrow to control the car!</p>
+          <p id="instructions">Use the left and right arrow to catch my skills and avoid the bug!</p>
+          <button id="start-button">My Skills</button>
+          
           <img src="./images/arrows.png" alt="" class="arrows-img" />
         </div>
   
         <div id="game-container">
-          <div>
+          <div id="game-stats">
             <h2>Stats</h2>
             <p>Score: <span id="score">0</span></p>
-            <p>Lives: <span id="lives">3</span></p>
+            <p>Lives: <span id="lives">5</span></p>
           </div>
           <!-- #game-screen is initially hidden using CSS style display: none -->
           <div id="game-screen"></div>
@@ -35,9 +38,18 @@
           <br />
           <button id="restart-button">Restart</button>
         </div>
+    </div>
       </main>
   
       <script type="text/javascript" src="js/obstacles.js"></script>
+      <script type="text/javascript" src="js/obstacles2.js"></script>
+      <script type="text/javascript" src="js/obstacles3.js"></script>
+      <script type="text/javascript" src="js/obstacles4.js"></script>
+      <script type="text/javascript" src="js/obstacles5.js"></script>
+      <script type="text/javascript" src="js/obstacles6.js"></script>
+      <script type="text/javascript" src="js/obstacles7.js"></script>
+      <script type="text/javascript" src="js/obstacles8.js"></script>
+      <script type="text/javascript" src="js/obstacles9.js"></script>
       <script type="text/javascript" src="js/player.js"></script>
       <script type="text/javascript" src="js/game.js"></script>
       <script type="text/javascript" src="js/script.js"></script>
